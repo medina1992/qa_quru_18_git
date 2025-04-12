@@ -3,13 +3,14 @@ package com.medina;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Hello QA-QURU, еще разок");
+        String msg = null;
+        System.out.printf(msg);
 
 
-    }
+        for (int i = 1; i <= 5; i++) {
 
-    private static String getmessage () {
-        return  "Kонфликт";
+
+            System.out.println("i = " + i);
+        }
     }
 }
-
