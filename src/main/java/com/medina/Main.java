@@ -7,4 +7,9 @@ public class Main {
 
 
     }
+
+    private static String getmessage () {
+        return  "Kонфликт";
+    }
 }
+
