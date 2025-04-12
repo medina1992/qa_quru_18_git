@@ -1,10 +1,11 @@
 package com.medina;
 
 public class Main {
+ 
 
-     public static String msg = "Hello QA-QURU!";
     public static void main(String[] args) {
 
+        String msg = null;
         System.out.printf(msg);
 
 
